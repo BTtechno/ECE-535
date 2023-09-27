@@ -6,7 +6,6 @@ Motivation:
 With the exponential growth in IoT devices and their data generation capabilities, there's a need to process this data in an efficient and privacy-preserving manner. Federated Learning (FL) offers a better solution by allowing decentralized training across these devices. However, given the heterogeneous nature of sensors and their data distributions, there's a risk of model bias towards certain groups. Addressing these biases is crucial to ensure equitable model predictions, especially in critical applications where biases can lead to significant ramifications.
 
 Design Goals:
-
 Understand and implement various Federated Learning techniques like FedAvg, TERM, and AFL.
 Use diverse datasets (CIFAR-10, FashionMNIST) to train and evaluate the FL techniques.
 Investigate the effect of different FL techniques on the variance of accuracy among individual client groups.
@@ -25,8 +24,8 @@ HW/SW Requirements:
 
 Hardware: Laptop with CUDA-enabled GPU for efficient model training and evaluation.
 Software: Python, Federated Learning libraries/frameworks, Data processing libraries.
-Team Members' Responsibilities:
 
+Team Members' Responsibilities:
 Tommy (Lead Roles: Setup, Networking, Writing)
 Set up the necessary environment for the project.
 Handle communication and networking related to federated learning.
@@ -39,7 +38,6 @@ Draft reports and documentation.
 
 Qualifications:
 We have both taken a security engineering class ECE 547 and have gained insights into the pitfalls and potential threats in machine learning. We understand how malicious or flawed data can deteriorate the performance of machine learning models and are equipped some background knowledge.
-
 
 Project Timeline:
 Week 1:
@@ -71,7 +69,6 @@ Drafting and finalizing the report and documentation.
 Addressing any remaining concerns and final project wrap-up.
 
 References:
-
 Paper: Communication-Efficient Learning of Deep Networks from Decentralized Data
 https://arxiv.org/abs/1602.05629
 Paper: Tilted Empirical Risk Minimization
