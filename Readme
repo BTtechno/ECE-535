@@ -27,12 +27,12 @@ Hardware: Laptop with CUDA-enabled GPU for efficient model training and evaluati
 Software: Python, Federated Learning libraries/frameworks, Data processing libraries.
 Team Members' Responsibilities:
 
-Person 1 (Lead Roles: Setup, Networking, Writing)
+Tommy (Lead Roles: Setup, Networking, Writing)
 Set up the necessary environment for the project.
 Handle communication and networking related to federated learning.
 Draft reports and documentation.
 
-Person 2 (Lead Roles: Software, Research, writting)
+Buuthien (Lead Roles: Software, Research, writting)
 Implement and integrate FL techniques.
 Research of accuracy varibles in different client groups
 Draft reports and documentation.
@@ -80,7 +80,12 @@ Paper: Agnostic Federated Learning
 https://arxiv.org/pdf/1902.00146.pdf
 
 Code: FedAvg
+https://github.com/alexbie98/fedavg
 Code: TERM
+https://github.com/litian96/TERM
 Code: AFL
+https://github.com/YuichiNAGAO/agnostic_federated_learning
 Data: CIFAR-10
+https://www.kaggle.com/c/cifar-10/data
 Data: FashionMNIST
+https://github.com/zalandoresearch/fashion-mnist
