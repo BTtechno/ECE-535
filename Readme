@@ -1,1 +1,84 @@
-test
+Group Members: Buuthien Hang and Tommy Taing
+
+Motivation:
+With the exponential growth in IoT devices and their data generation capabilities, there's a need to process this data in an efficient and privacy-preserving manner. Federated Learning (FL) offers a better solution by allowing decentralized training across these devices. However, given the heterogeneous nature of sensors and their data distributions, there's a risk of model bias towards certain groups. Addressing these biases is crucial to ensure equitable model predictions, especially in critical applications where biases can lead to significant ramifications.
+
+Design Goals:
+
+Understand and implement various Federated Learning techniques like FedAvg, TERM, and AFL.
+Use diverse datasets (CIFAR-10, FashionMNIST) to train and evaluate the FL techniques.
+Investigate the effect of different FL techniques on the variance of accuracy among individual client groups.
+
+Deliverables:
+Implementation of FedAvg, TERM, and AFL using the provided code repositories.
+A comprehensive report and analysis of the performance of the different FL techniques on the CIFAR-10 and FashionMNIST datasets.
+Insights into the variance in accuracy among different client groups when different FL techniques are employed.
+
+System Blocks:
+Data Collection Module: Load and preprocess the CIFAR-10 and FashionMNIST datasets.
+Federated Learning Module: Implement and integrate FedAvg, TERM, and AFL techniques.
+Evaluation Module: Assess the performance of FL techniques and measure the variance in accuracy.
+Visualization Module: Provide visual representations of results for better clarity.
+HW/SW Requirements:
+
+Hardware: Laptop with CUDA-enabled GPU for efficient model training and evaluation.
+Software: Python, Federated Learning libraries/frameworks, Data processing libraries.
+Team Members' Responsibilities:
+
+Person 1 (Lead Roles: Setup, Networking, Writing)
+Set up the necessary environment for the project.
+Handle communication and networking related to federated learning.
+Draft reports and documentation.
+
+Person 2 (Lead Roles: Software, Research, writting)
+Implement and integrate FL techniques.
+Research of accuracy varibles in different client groups
+Draft reports and documentation.
+
+Qualifications:
+We have both taken a security engineering class ECE 547 and have gained insights into the pitfalls and potential threats in machine learning. We understand how malicious or flawed data can deteriorate the performance of machine learning models and are equipped some background knowledge.
+
+
+Project Timeline:
+Week 1:
+Environment setup.
+Dataset loading and preprocessing.
+
+Week 2:
+Implementation and initial testing of FedAvg.
+
+Week 3:
+Fine-tuning and integration of FedAvg.
+Start implementation of TERM.
+
+Week 4:
+Complete implementation and testing of TERM.
+
+Week 5:
+Fine-tuning and integration of TERM.
+Begin implementation of AFL.
+
+Week 6:
+Complete implementation and initial testing of AFL.
+
+Week 7:
+Evaluation, analysis, and visualization of results from all FL techniques.
+
+Week 8:
+Drafting and finalizing the report and documentation.
+Addressing any remaining concerns and final project wrap-up.
+
+References:
+
+Paper: Communication-Efficient Learning of Deep Networks from Decentralized Data
+https://arxiv.org/abs/1602.05629
+Paper: Tilted Empirical Risk Minimization
+https://openreview.net/pdf?id=K5YasWXZT3O
+Paper: Agnostic Federated Learning
+https://arxiv.org/pdf/1902.00146.pdf
+
+Code: FedAvg
+Code: TERM
+Code: AFL
+Data: CIFAR-10
+Data: FashionMNIST
