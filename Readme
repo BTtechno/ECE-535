@@ -10,7 +10,6 @@ Understand and implement various Federated Learning techniques like FedAvg, TERM
 Use diverse datasets (CIFAR-10, FashionMNIST) to train and evaluate the FL techniques.
 Investigate the effect of different FL techniques on the variance of accuracy among individual client groups.
 
-sss
 Deliverables:
 Implementation of FedAvg, TERM, and AFL using the provided code repositories.
 A comprehensive report and analysis of the performance of the different FL techniques on the CIFAR-10 and FashionMNIST datasets.
